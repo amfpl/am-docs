@@ -1,7 +1,7 @@
 # Core documentation
 
 <center>
-
+        <a href=""><img src="https://img.shields.io/badge/License-Apache--2.0-orange?style=for-the-badge" alt="License Apache-2.0"></a>
 </center>
 
 > [!NOTE]
