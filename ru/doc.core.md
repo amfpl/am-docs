@@ -11,6 +11,7 @@
 - [Как начать](#how-to-start)
   - [Установка](#download)
     - [Windows](#dl-win)
+    <!-- Я случайно сделал опечатку, но теперь Linix это стиль :) -->
     - [Linux](#dl-linix)
   - [Проверка](#check-for-install)
   - [Первый запуск](#first-start)
