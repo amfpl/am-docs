@@ -46,4 +46,5 @@
   - [Проверки](#space-check)
   - [Совмещение](#space-use)
 
+<i id="how-to-start"></i>
 ## Как начать
