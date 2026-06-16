@@ -1,0 +1,1 @@
+# Stadnart Library (std) documentation
