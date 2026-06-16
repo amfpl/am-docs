@@ -1,1 +1,1 @@
-f
+# Stadnart Library (std) documentation
