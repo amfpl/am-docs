@@ -111,7 +111,7 @@
 ```
 
 Создайте файл `main.am` в той же папке, где и `*.upc` со следующим содержанием:
-```am
+```java
 import.addSpace("std/io", io, io());
 program.addSpace("hello", hi() {
   io.outputln("Hello, world!");
