@@ -116,7 +116,7 @@ import.addSpace("std/io", io, io());
 program.addSpace("hello", hi() {
   io.outputln("Hello, world!");
   program.end(0);
-});
+})(use io);
 ```
 
 После выполните в консоли:
@@ -128,5 +128,12 @@ path/to/am.exe build
 # или, если у вас Linux:
 path/to/am build
 ```
+
+Когда компиляция прошла - запустите сгенерированный файл, он должен показать `Hello, world!`.
+
+## CLI
+CLI (или же Command-Line Interface) - это взаимодействие пользователя с программой через консоль.
+
+Для взаимодействия Am с пользователем через консоль используется команда `am <args>`
 
 <i id=""></i>
