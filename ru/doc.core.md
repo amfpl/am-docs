@@ -91,15 +91,13 @@
 
 Создайте файл с расширением `*.upc` и следующим содержанием:
 ```upc
-#!: comment
 #[main]
   version="0.1.0"
-  realVersion="MyDesiredVersion"
-  name="Example"
+  name="hello_world"
 
 #[build]
-  main={./src/main.am}
-  platform=@["win", "linux"]
+  main={./main.am}
+  platform=@["win"] #!: или "linux"
   test=[:test_build]
   release=[:release_build]
 
@@ -110,18 +108,15 @@
 #[release_build]
   outfile=(name + "-" + version)
   outpath={./bin/}
+```
 
-#[license]
-  display="Apache-2.0"
-  path={./LICENSE.txt}
-  notice=[:noticing]
-
-#[noticing]
-  enabled=true
-  path={./NOTICE.txt}
-
-#[repository]
-  url="https://github.com/ampl/am"
+Создайте файл `main.am` в той же папке, где и `*.upc` со следующим содержанием:
+```am
+import.addSpace("std/io", io, io());
+program.addSpace("hello", hi() {
+  io.outputln("Hello, world!");
+  program.end(0);
+});
 ```
 
 <i id=""></i>
