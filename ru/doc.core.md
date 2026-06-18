@@ -385,7 +385,9 @@ Do you want to continue ignoring this value? [Y/n]:
 [3.14, true /* Я не поставил запятую после true, поэтому она тут --> */, "hi"]
 ```
 
-<i id=""></i>
+<i id="type-dict"></i>
+### s
+
 <i id=""></i>
 <i id=""></i>
 <i id=""></i>
