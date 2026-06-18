@@ -386,7 +386,7 @@ Do you want to continue ignoring this value? [Y/n]:
 ```
 
 <i id="type-dict"></i>
-### Словарь
+### Словари
 
 <i id=""></i>
 <i id=""></i>
