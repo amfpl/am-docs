@@ -417,7 +417,11 @@ Do you want to continue ignoring this value? [Y/n]:
 | `voidable-double` | `VD`               |
 | `auto`            | `U`                |
 
-<i id=""></i>
+<i id="type-void"></i>
+### Пустоты
+
+Тип данных пустоты (**`void`**) может хранить только специальное значение `null`. 
+
 <i id=""></i>
 <i id=""></i>
 <i id=""></i>
