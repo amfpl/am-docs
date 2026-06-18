@@ -410,11 +410,6 @@ Do you want to continue ignoring this value? [Y/n]:
 | `arr`             | `A`                |
 | `dict`            | `T`                |
 | `void`            | `V`                |
-| `voidable_string` | `VS`               |
-| `voidable_char`   | `VC`               |
-| `voidable_int`    | `VI`               |
-| `voidable_float`  | `VF`               |
-| `voidable_double` | `VD`               |
 | `auto`            | `U`                |
 
 <i id="type-void"></i>
