@@ -135,7 +135,7 @@
 Создайте файл `main.am` в той же папке, где и `*.upc` со следующим содержанием:
 ```java
 import.addSpace("std/io", io, io());
-program.addSpace("hello", hi() {
+program.addSpace(Process@main, {
   io.outputln("Hello, world!");
   program.end(0);
 })(use io);
